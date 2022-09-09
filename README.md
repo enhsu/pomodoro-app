@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Frontend Mentor - Calculator app solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Pomodoro app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pomodoro-app-KBFnycJ6G). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The idea of a Pomodoro technique is that during the day you can block chunks of time of 25 minutes and try to focus on doing one thing, without any destructions.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+In the FrontendMentor's design the idea is evolved to have 3 shortcut values to set common time-chunks of 25, 5 and 15 minutes. Futhermore these values can then be changed in the application settings.
 
-### `npm test`
+Original design providing the circled progress-bar that runs clockwise and time increments accordingly, however this part I changed to my liking - progress bar and time actually reducing values, rather than increasing them. So instead of going from 00:00 to 25:00, this implementation goes from 25:00 to 00:00 in the end.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The challenge
 
-### `npm run build`
+Users should be able to:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Ability to Start 3 types of timers
+- Ability to change visual of the app
+- Ability to pause, start and restart the timer
+- Ability to customize each of the timers
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Screenshot
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![app](./app.png)
+![setting](./setting.png)
 
-### `npm run eject`
+### Links
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Solution URL: [https://github.com/enhsu/pomodoro-app](https://github.com/enhsu/pomodoro-app)
+- Live Site URL: [https://enhsu.github.io/pomodoro-app/](https://enhsu.github.io/pomodoro-app/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [React](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Author
 
-## Learn More
+- GitHub - [@enhsu](https://github.com/enhsu)
+- Twitter - [@enhsu79](https://www.twitter.com/enhsu79)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
